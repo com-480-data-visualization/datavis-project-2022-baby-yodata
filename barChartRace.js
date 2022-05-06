@@ -1,10 +1,3 @@
-// https://observablehq.com/@d3/bar-chart-race@3058
-function _1(md){return(
-md`# Bar Chart Race
-
-This chart animates the value (in $M) of the top global brands from 2000 to 2019. Color indicates sector. See [the explainer](/d/e9e3929cf7c50b45) for more. Data: [Interbrand](https://www.interbrand.com/best-brands/)`
-)}
-
 function _data(FileAttachment){return(
 FileAttachment("category-brands.csv").csv({typed: true})
 )}
@@ -269,7 +262,6 @@ export default function define(runtime, observer) {
     ["category-brands.csv", {url: new URL("./data/barChartRaceData", import.meta.url), mimeType: "text/csv", toString}]
   ]);
   main.builtin("FileAttachment", runtime.fileAttachments(name => fileAttachments.get(name)));
-  main.variable(observer()).define(["md"], _1);
   main.variable(observer("data")).define("data", ["FileAttachment"], _data);
   main.variable(observer("viewof replay")).define("viewof replay", ["html"], _replay);
   main.variable(observer("replay")).define("replay", ["Generators", "viewof replay"], (G, _) => G.input(_));
