@@ -219,11 +219,11 @@ d3.utcFormat("%Y")
 function _color(d3,data)
 {
   const scale = d3.scaleOrdinal(d3.schemeTableau10);
-  if (data.some(d => d.category !== undefined)) {
-    const categoryByName = new Map(data.map(d => [d.name, d.category]))
+/*  if (data.some(d => d.category !== undefined)) {
+    const categoryByName = new Map(data.map(d => d.name))
     scale.domain(categoryByName.values());
     return d => scale(categoryByName.get(d.name));
-  }
+  }*/
   return d => scale(d.name);
 }
 
@@ -259,7 +259,7 @@ export default function define(runtime, observer) {
   const main = runtime.module();
   function toString() { return this.url; }
   const fileAttachments = new Map([
-    ["category-brands.csv", {url: new URL("./data/barChartRaceData", import.meta.url), mimeType: "text/csv", toString}]
+    ["category-brands.csv", {url: new URL("./data/starshipsRace.csv", import.meta.url), mimeType: "text/csv", toString}]
   ]);
   main.builtin("FileAttachment", runtime.fileAttachments(name => fileAttachments.get(name)));
   main.variable(observer("data")).define("data", ["FileAttachment"], _data);
