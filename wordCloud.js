@@ -22,6 +22,7 @@ howto("WordCloud")
 async function _source(Inputs,FileAttachment,width){return(
 Inputs.textarea({
   value: (await FileAttachment("dream.txt").text()).trim(),
+  //value: (await FileAttachment("4_LUKE.txt").text()).trim(),
   rows: 20,
   width
 })
@@ -60,6 +61,7 @@ function WordCloud(text, {
       .attr("width", width)
       .attr("font-family", fontFamily)
       .attr("text-anchor", "middle")
+      .attr("fill", "#FFFFFF")
       .attr("style", "max-width: 100%; height: auto; height: intrinsic;");
 
   const g = svg.append("g").attr("transform", `translate(${marginLeft},${marginTop})`);
@@ -128,6 +130,7 @@ export default function define(runtime, observer) {
   function toString() { return this.url; }
   const fileAttachments = new Map([
     ["dream.txt", {url: new URL("./data/dream.txt", import.meta.url), mimeType: "text/plain", toString}]
+    //["4_LUKE.txt", {url: new URL("./data/4_LUKE.txt", import.meta.url), mimeType: "text/plain", toString}]
   ]);
   main.builtin("FileAttachment", runtime.fileAttachments(name => fileAttachments.get(name)));
   main.variable(observer()).define(["md"], _1);
