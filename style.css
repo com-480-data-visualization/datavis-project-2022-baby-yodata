@@ -17,9 +17,10 @@ to
 
 @font-face {
 	font-family: "starWarsFont";
-	src: url("./StarJedi.woff") format('woff');;
- }
-  
+	src: url("./StarJedi.woff") format('woff');
+	;
+}
+
 
 /*
 Make the document fill the whole viewport, this overrides any weird defaults that browsers might have.
@@ -286,7 +287,7 @@ textarea {
 	scroll-snap-align: center;
 }
 
-.block-height{
+.block-height {
 	height: 100vh;
 }
 
@@ -347,4 +348,16 @@ textarea {
 #crawl h1,
 #crawl h2 {
 	text-align: center;
+}
+
+.flex-parent {
+	display: flex;
+}
+
+.jc-center {
+	justify-content: center;
+}
+
+button.margin-right {
+	margin-right: 20px;
 }
