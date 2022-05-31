@@ -1,4 +1,3 @@
-
 /*
 This CSS governs the appearance of our site.
 You can find the basic concepts of CSS here: https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS/How_CSS_works
@@ -16,10 +15,18 @@ to
 	box-sizing: border-box;
 }
 
+@font-face {
+	font-family: "starWarsFont";
+	src: url("./StarJedi.woff") format('woff');;
+ }
+  
+
 /*
 Make the document fill the whole viewport, this overrides any weird defaults that browsers might have.
 */
-html, body, figure {
+html,
+body,
+figure {
 	width: 100%;
 	padding: 0;
 	margin: 0;
@@ -28,8 +35,16 @@ html, body, figure {
 
 /* Default font and size */
 body {
-	font-family: sans-serif;
 	font-size: 1.1rem;
+	position: fixed;
+	left: 0px;
+	right: 0px;
+	top: 0px;
+	bottom: 0px;
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+
 }
 
 /*
@@ -59,14 +74,30 @@ p {
 }
 
 /* Titles: set color and sizes */
-h1, h2, h3, h4, h5, h6
-{
-	color: rgb(0, 44, 122);
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	color: #f5c91c;
 }
-h1 { font-size: 2rem; }
-h2 { font-size: 1.75rem; }
-h3 { font-size: 1.75rem; }
-h4 { font-size: 1.25rem; }
+
+h1 {
+	font-size: 2rem;
+}
+
+h2 {
+	font-size: 1.75rem;
+}
+
+h3 {
+	font-size: 1.75rem;
+}
+
+h4 {
+	font-size: 1.25rem;
+}
 
 /* Top navigation bar */
 nav {
@@ -103,6 +134,31 @@ nav ul {
 /* Space between links */
 nav li {
 	margin-right: 3rem;
+}
+
+#title {
+	margin-top: 50vh;
+	/* poussé de la moitié de hauteur de viewport */
+	transform: translateY(-50%);
+	/* tiré de la moitié de sa propre hauteur */
+}
+
+
+.title {
+	font-family: starWarsFont;
+	color: rgb(255, 232, 31);
+	font-size: 10em;
+	width: max-content;
+}
+
+.subtitle {
+	color: white;
+	width: max-content;
+	font-family: starWarsFont;
+}
+
+.center {
+	margin: 0 auto;
 }
 
 
@@ -142,7 +198,7 @@ nav li {
 	background-color: rgb(50, 50, 50);
 }
 
-figure > * {
+figure>* {
 	width: 100%;
 	height: auto;
 }
@@ -190,7 +246,7 @@ textarea {
 	font-size: 1.3rem;
 }
 
-#plot-occurrences > div {
+#plot-occurrences>div {
 	display: flex;
 	flex-flow: column nowrap;
 	justify-content: flex-end;
@@ -213,3 +269,82 @@ textarea {
 	font-size: 0.8rem;
 }
 
+.stretch {
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	margin: 0;
+	position: absolute;
+	overflow: scroll;
+}
+
+.container {
+	scroll-snap-type: block mandatory;
+}
+
+.child {
+	scroll-snap-align: center;
+}
+
+.block-height{
+	height: 100vh;
+}
+
+
+
+#crawl-container {
+	perspective: calc(100vh * 0.4);
+}
+
+#crawl {
+	color: #f5c91c;
+	position: relative;
+	width: 110%;
+	left: -5%;
+	bottom: -5%;
+	height: 200%;
+	overflow: scroll;
+
+	transform: rotate3d(1, 0, 0, 45deg);
+	transform-origin: 50% 100%;
+
+	mask-image: linear-gradient(rgba(0, 0, 0, 0),
+			rgba(0, 0, 0, 0.66),
+			rgba(0, 0, 0, 1));
+
+	-webkit-mask-image: -webkit-linear-gradient(rgba(0, 0, 0, 0),
+			rgba(0, 0, 0, 0.66),
+			rgba(0, 0, 0, 1));
+}
+
+#crawl-content {
+	font-family: Roboto;
+	font-size: calc(100vw * 0.074);
+	letter-spacing: 0.09em;
+	position: relative;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+}
+
+#crawl p {
+	text-align: justify;
+	width: 100%;
+	margin: 0 0 1.25em 0;
+	line-height: 1.25em;
+}
+
+#crawl h1 {
+	font-size: 1em;
+	margin: 0 0 0.3em 0;
+}
+
+#crawl h2 {
+	font-size: 1.5em;
+	margin: 0 0 0.7em 0;
+}
+
+#crawl h1,
+#crawl h2 {
+	text-align: center;
+}
