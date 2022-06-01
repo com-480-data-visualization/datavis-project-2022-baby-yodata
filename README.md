@@ -2,4 +2,4 @@
 
 - `Milestone/` for the 3 milestone
 - `archive/` for the dataset
-- website : run `python3 -m http.server 8080`and open `/data_proprocessing.html` in localhost
+- website : https://com-480-data-visualization.github.io/datavis-project-2022-baby-yodata/
