@@ -140,7 +140,7 @@ export default function define(runtime, observer) {
   const main = runtime.module();
   function toString() { return this.url; }
   const fileAttachments = new Map([
-    ["flare.csv", {url: new URL("./data/aee5d", import.meta.url), mimeType: null, toString}]
+    ["flare.csv", {url: new URL("./data/planet_size.csv", import.meta.url), mimeType: null, toString}]
   ]);
   main.builtin("FileAttachment", runtime.fileAttachments(name => fileAttachments.get(name)));
   main.variable(observer()).define(["md"], _1);
