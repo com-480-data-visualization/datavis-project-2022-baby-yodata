@@ -1,0 +1,676 @@
+date,name,value
+2000-01-01,Sentinel-class landing craft,0
+2000-01-01,Millennium Falcon,0
+2000-01-01,Y-wing,0
+2000-01-01,TIE Advanced x1,0
+2000-01-01,Slave 1,0
+2000-01-01,Imperial shuttle,0
+2000-01-01,A-wing,0
+2000-01-01,B-wing,0
+2000-01-01,Republic Cruiser,0
+2000-01-01,Naboo fighter,0
+2000-01-01,Naboo Royal Starship,0
+2000-01-01,Scimitar,0
+2000-01-01,J-type diplomatic barge,0
+2000-01-01,Jedi starfighter,0
+2000-01-01,H-type Nubian yacht,0
+2000-01-01,Star Destroyer,0
+2000-01-01,Trade Federation cruiser,0
+2000-01-01,Theta-class T-2c shuttle,0
+2000-01-01,Rebel transport,0
+2000-01-01,Solar Sailer,0
+2000-01-01,Republic attack cruiser,0
+2000-01-01,Naboo star skiff,0
+2000-01-01,Jedi Interceptor,0
+2000-01-01,arc-170,0
+2000-01-01,Belbullab-22 starfighter,0
+2000-01-01,V-wing,0
+2000-01-01,CR90 corvette,0
+2001-01-01,Sentinel-class landing craft,10
+2001-01-01,Millennium Falcon,50
+2001-01-01,Y-wing,50
+2001-01-01,TIE Advanced x1,10
+2001-01-01,Slave 1,50
+2001-01-01,Imperial shuttle,5
+2001-01-01,A-wing,40
+2001-01-01,B-wing,20
+2001-01-01,Republic Cruiser,50
+2001-01-01,Naboo fighter,20
+2001-01-01,Naboo Royal Starship,20
+2001-01-01,Scimitar,30
+2001-01-01,J-type diplomatic barge,60
+2001-01-01,Jedi starfighter,50
+2001-01-01,H-type Nubian yacht,20
+2001-01-01,Star Destroyer,40
+2001-01-01,Trade Federation cruiser,40
+2001-01-01,Theta-class T-2c shuttle,60
+2001-01-01,Rebel transport,5
+2001-01-01,Solar Sailer,16
+2001-01-01,Republic attack cruiser,70
+2001-01-01,Naboo star skiff,30
+2001-01-01,Jedi Interceptor,5
+2001-01-01,arc-170,30
+2001-01-01,Belbullab-22 starfighter,100
+2001-01-01,V-wing,50
+2001-01-01,CR90 corvette,10
+2002-01-01,Sentinel-class landing craft,40
+2002-01-01,Millennium Falcon,70
+2002-01-01,Y-wing,80
+2002-01-01,TIE Advanced x1,40
+2002-01-01,Slave 1,100
+2002-01-01,Imperial shuttle,15
+2002-01-01,A-wing,60
+2002-01-01,B-wing,40
+2002-01-01,Republic Cruiser,70
+2002-01-01,Naboo fighter,50
+2002-01-01,Naboo Royal Starship,30
+2002-01-01,Scimitar,40
+2002-01-01,J-type diplomatic barge,70
+2002-01-01,Jedi starfighter,60
+2002-01-01,H-type Nubian yacht,50
+2002-01-01,Star Destroyer,70
+2002-01-01,Trade Federation cruiser,60
+2002-01-01,Theta-class T-2c shuttle,80
+2002-01-01,Rebel transport,25
+2002-01-01,Solar Sailer,50
+2002-01-01,Republic attack cruiser,80
+2002-01-01,Naboo star skiff,50
+2002-01-01,Jedi Interceptor,20
+2002-01-01,arc-170,50
+2002-01-01,Belbullab-22 starfighter,110
+2002-01-01,V-wing,60
+2002-01-01,CR90 corvette,30
+2003-01-01,Sentinel-class landing craft,60
+2003-01-01,Millennium Falcon,75
+2003-01-01,Y-wing,110
+2003-01-01,TIE Advanced x1,45
+2003-01-01,Slave 1,150
+2003-01-01,Imperial shuttle,40
+2003-01-01,A-wing,75
+2003-01-01,B-wing,55
+2003-01-01,Republic Cruiser,75
+2003-01-01,Naboo fighter,65
+2003-01-01,Naboo Royal Starship,50
+2003-01-01,Scimitar,67
+2003-01-01,J-type diplomatic barge,76
+2003-01-01,Jedi starfighter,88
+2003-01-01,H-type Nubian yacht,65
+2003-01-01,Star Destroyer,87
+2003-01-01,Trade Federation cruiser,78
+2003-01-01,Theta-class T-2c shuttle,92
+2003-01-01,Rebel transport,35
+2003-01-01,Solar Sailer,71
+2003-01-01,Republic attack cruiser,110
+2003-01-01,Naboo star skiff,70
+2003-01-01,Jedi Interceptor,90
+2003-01-01,arc-170,80
+2003-01-01,Belbullab-22 starfighter,140
+2003-01-01,V-wing,101
+2003-01-01,CR90 corvette,62
+2004-01-01,Sentinel-class landing craft,86
+2004-01-01,Millennium Falcon,120
+2004-01-01,Y-wing,140
+2004-01-01,TIE Advanced x1,67
+2004-01-01,Slave 1,180
+2004-01-01,Imperial shuttle,78
+2004-01-01,A-wing,105
+2004-01-01,B-wing,78
+2004-01-01,Republic Cruiser,99
+2004-01-01,Naboo fighter,84
+2004-01-01,Naboo Royal Starship,75
+2004-01-01,Scimitar,88
+2004-01-01,J-type diplomatic barge,103
+2004-01-01,Jedi starfighter,105
+2004-01-01,H-type Nubian yacht,85
+2004-01-01,Star Destroyer,105
+2004-01-01,Trade Federation cruiser,99
+2004-01-01,Theta-class T-2c shuttle,134
+2004-01-01,Rebel transport,67
+2004-01-01,Solar Sailer,92
+2004-01-01,Republic attack cruiser,132
+2004-01-01,Naboo star skiff,99
+2004-01-01,Jedi Interceptor,108
+2004-01-01,arc-170,102
+2004-01-01,Belbullab-22 starfighter,160
+2004-01-01,V-wing,126
+2004-01-01,CR90 corvette,82
+2005-01-01,Sentinel-class landing craft,98
+2005-01-01,Millennium Falcon,143
+2005-01-01,Y-wing,167
+2005-01-01,TIE Advanced x1,83
+2005-01-01,Slave 1,195
+2005-01-01,Imperial shuttle,87
+2005-01-01,A-wing,116
+2005-01-01,B-wing,97
+2005-01-01,Republic Cruiser,113
+2005-01-01,Naboo fighter,100
+2005-01-01,Naboo Royal Starship,120
+2005-01-01,Scimitar,99
+2005-01-01,J-type diplomatic barge,123
+2005-01-01,Jedi starfighter,125
+2005-01-01,H-type Nubian yacht,104
+2005-01-01,Star Destroyer,122
+2005-01-01,Trade Federation cruiser,105
+2005-01-01,Theta-class T-2c shuttle,145
+2005-01-01,Rebel transport,88
+2005-01-01,Solar Sailer,107
+2005-01-01,Republic attack cruiser,154
+2005-01-01,Naboo star skiff,106
+2005-01-01,Jedi Interceptor,119
+2005-01-01,arc-170,134
+2005-01-01,Belbullab-22 starfighter,185
+2005-01-01,V-wing,156
+2005-01-01,CR90 corvette,108
+2006-01-01,Sentinel-class landing craft,130
+2006-01-01,Millennium Falcon,167
+2006-01-01,Y-wing,188
+2006-01-01,TIE Advanced x1,112
+2006-01-01,Slave 1,230
+2006-01-01,Imperial shuttle,108
+2006-01-01,A-wing,134
+2006-01-01,B-wing,124
+2006-01-01,Republic Cruiser,145
+2006-01-01,Naboo fighter,137
+2006-01-01,Naboo Royal Starship,167
+2006-01-01,Scimitar,124
+2006-01-01,J-type diplomatic barge,138
+2006-01-01,Jedi starfighter,138
+2006-01-01,H-type Nubian yacht,124
+2006-01-01,Star Destroyer,165
+2006-01-01,Trade Federation cruiser,144
+2006-01-01,Theta-class T-2c shuttle,167
+2006-01-01,Rebel transport,120
+2006-01-01,Solar Sailer,135
+2006-01-01,Republic attack cruiser,199
+2006-01-01,Naboo star skiff,134
+2006-01-01,Jedi Interceptor,145
+2006-01-01,arc-170,165
+2006-01-01,Belbullab-22 starfighter,200
+2006-01-01,V-wing,189
+2006-01-01,CR90 corvette,128
+2007-01-01,Sentinel-class landing craft,157
+2007-01-01,Millennium Falcon,178
+2007-01-01,Y-wing,212
+2007-01-01,TIE Advanced x1,156
+2007-01-01,Slave 1,245
+2007-01-01,Imperial shuttle,156
+2007-01-01,A-wing,154
+2007-01-01,B-wing,173
+2007-01-01,Republic Cruiser,176
+2007-01-01,Naboo fighter,175
+2007-01-01,Naboo Royal Starship,187
+2007-01-01,Scimitar,145
+2007-01-01,J-type diplomatic barge,175
+2007-01-01,Jedi starfighter,145
+2007-01-01,H-type Nubian yacht,134
+2007-01-01,Star Destroyer,168
+2007-01-01,Trade Federation cruiser,176
+2007-01-01,Theta-class T-2c shuttle,178
+2007-01-01,Rebel transport,179
+2007-01-01,Solar Sailer,145
+2007-01-01,Republic attack cruiser,223
+2007-01-01,Naboo star skiff,157
+2007-01-01,Jedi Interceptor,186
+2007-01-01,arc-170,176
+2007-01-01,Belbullab-22 starfighter,212
+2007-01-01,V-wing,243
+2007-01-01,CR90 corvette,156
+2008-01-01,Sentinel-class landing craft,179
+2008-01-01,Millennium Falcon,245
+2008-01-01,Y-wing,254
+2008-01-01,TIE Advanced x1,178
+2008-01-01,Slave 1,276
+2008-01-01,Imperial shuttle,176
+2008-01-01,A-wing,187
+2008-01-01,B-wing,189
+2008-01-01,Republic Cruiser,242
+2008-01-01,Naboo fighter,213
+2008-01-01,Naboo Royal Starship,231
+2008-01-01,Scimitar,197
+2008-01-01,J-type diplomatic barge,199
+2008-01-01,Jedi starfighter,187
+2008-01-01,H-type Nubian yacht,178
+2008-01-01,Star Destroyer,199
+2008-01-01,Trade Federation cruiser,231
+2008-01-01,Theta-class T-2c shuttle,243
+2008-01-01,Rebel transport,213
+2008-01-01,Solar Sailer,188
+2008-01-01,Republic attack cruiser,245
+2008-01-01,Naboo star skiff,187
+2008-01-01,Jedi Interceptor,199
+2008-01-01,arc-170,211
+2008-01-01,Belbullab-22 starfighter,265
+2008-01-01,V-wing,289
+2008-01-01,CR90 corvette,187
+2009-01-01,Sentinel-class landing craft,212
+2009-01-01,Millennium Falcon,256
+2009-01-01,Y-wing,267
+2009-01-01,TIE Advanced x1,201
+2009-01-01,Slave 1,300
+2009-01-01,Imperial shuttle,189
+2009-01-01,A-wing,211
+2009-01-01,B-wing,213
+2009-01-01,Republic Cruiser,267
+2009-01-01,Naboo fighter,234
+2009-01-01,Naboo Royal Starship,286
+2009-01-01,Scimitar,234
+2009-01-01,J-type diplomatic barge,213
+2009-01-01,Jedi starfighter,200
+2009-01-01,H-type Nubian yacht,201
+2009-01-01,Star Destroyer,204
+2009-01-01,Trade Federation cruiser,253
+2009-01-01,Theta-class T-2c shuttle,276
+2009-01-01,Rebel transport,234
+2009-01-01,Solar Sailer,221
+2009-01-01,Republic attack cruiser,278
+2009-01-01,Naboo star skiff,232
+2009-01-01,Jedi Interceptor,221
+2009-01-01,arc-170,264
+2009-01-01,Belbullab-22 starfighter,286
+2009-01-01,V-wing,322
+2009-01-01,CR90 corvette,220
+2010-01-01,Sentinel-class landing craft,254
+2010-01-01,Millennium Falcon,265
+2010-01-01,Y-wing,286
+2010-01-01,TIE Advanced x1,223
+2010-01-01,Slave 1,332
+2010-01-01,Imperial shuttle,211
+2010-01-01,A-wing,245
+2010-01-01,B-wing,264
+2010-01-01,Republic Cruiser,287
+2010-01-01,Naboo fighter,243
+2010-01-01,Naboo Royal Starship,311
+2010-01-01,Scimitar,245
+2010-01-01,J-type diplomatic barge,223
+2010-01-01,Jedi starfighter,224
+2010-01-01,H-type Nubian yacht,234
+2010-01-01,Star Destroyer,253
+2010-01-01,Trade Federation cruiser,264
+2010-01-01,Theta-class T-2c shuttle,289
+2010-01-01,Rebel transport,246
+2010-01-01,Solar Sailer,276
+2010-01-01,Republic attack cruiser,345
+2010-01-01,Naboo star skiff,275
+2010-01-01,Jedi Interceptor,285
+2010-01-01,arc-170,300
+2010-01-01,Belbullab-22 starfighter,301
+2010-01-01,V-wing,368
+2010-01-01,CR90 corvette,285
+2011-01-01,Sentinel-class landing craft,289
+2011-01-01,Millennium Falcon,297
+2011-01-01,Y-wing,305
+2011-01-01,TIE Advanced x1,267
+2011-01-01,Slave 1,379
+2011-01-01,Imperial shuttle,267
+2011-01-01,A-wing,278
+2011-01-01,B-wing,297
+2011-01-01,Republic Cruiser,324
+2011-01-01,Naboo fighter,287
+2011-01-01,Naboo Royal Starship,366
+2011-01-01,Scimitar,296
+2011-01-01,J-type diplomatic barge,285
+2011-01-01,Jedi starfighter,289
+2011-01-01,H-type Nubian yacht,254
+2011-01-01,Star Destroyer,285
+2011-01-01,Trade Federation cruiser,299
+2011-01-01,Theta-class T-2c shuttle,324
+2011-01-01,Rebel transport,275
+2011-01-01,Solar Sailer,297
+2011-01-01,Republic attack cruiser,389
+2011-01-01,Naboo star skiff,309
+2011-01-01,Jedi Interceptor,302
+2011-01-01,arc-170,375
+2011-01-01,Belbullab-22 starfighter,389
+2011-01-01,V-wing,399
+2011-01-01,CR90 corvette,345
+2012-01-01,Sentinel-class landing craft,321
+2012-01-01,Millennium Falcon,353
+2012-01-01,Y-wing,369
+2012-01-01,TIE Advanced x1,299
+2012-01-01,Slave 1,423
+2012-01-01,Imperial shuttle,298
+2012-01-01,A-wing,322
+2012-01-01,B-wing,321
+2012-01-01,Republic Cruiser,365
+2012-01-01,Naboo fighter,342
+2012-01-01,Naboo Royal Starship,385
+2012-01-01,Scimitar,342
+2012-01-01,J-type diplomatic barge,323
+2012-01-01,Jedi starfighter,353
+2012-01-01,H-type Nubian yacht,288
+2012-01-01,Star Destroyer,342
+2012-01-01,Trade Federation cruiser,323
+2012-01-01,Theta-class T-2c shuttle,378
+2012-01-01,Rebel transport,324
+2012-01-01,Solar Sailer,326
+2012-01-01,Republic attack cruiser,456
+2012-01-01,Naboo star skiff,389
+2012-01-01,Jedi Interceptor,467
+2012-01-01,arc-170,478
+2012-01-01,Belbullab-22 starfighter,456
+2012-01-01,V-wing,489
+2012-01-01,CR90 corvette,468
+2013-01-01,Sentinel-class landing craft,456
+2013-01-01,Millennium Falcon,466
+2013-01-01,Y-wing,399
+2013-01-01,TIE Advanced x1,359
+2013-01-01,Slave 1,499
+2013-01-01,Imperial shuttle,356
+2013-01-01,A-wing,399
+2013-01-01,B-wing,392
+2013-01-01,Republic Cruiser,456
+2013-01-01,Naboo fighter,500
+2013-01-01,Naboo Royal Starship,600
+2013-01-01,Scimitar,399
+2013-01-01,J-type diplomatic barge,430
+2013-01-01,Jedi starfighter,536
+2013-01-01,H-type Nubian yacht,560
+2013-01-01,Star Destroyer,456
+2013-01-01,Trade Federation cruiser,456
+2013-01-01,Theta-class T-2c shuttle,543
+2013-01-01,Rebel transport,632
+2013-01-01,Solar Sailer,543
+2013-01-01,Republic attack cruiser,654
+2013-01-01,Naboo star skiff,644
+2013-01-01,Jedi Interceptor,643
+2013-01-01,arc-170,643
+2013-01-01,Belbullab-22 starfighter,756
+2013-01-01,V-wing,754
+2013-01-01,CR90 corvette,754
+2014-01-01,Sentinel-class landing craft,547
+2014-01-01,Millennium Falcon,643
+2014-01-01,Y-wing,644
+2014-01-01,TIE Advanced x1,464
+2014-01-01,Slave 1,654
+2014-01-01,Imperial shuttle,644
+2014-01-01,A-wing,533
+2014-01-01,B-wing,564
+2014-01-01,Republic Cruiser,543
+2014-01-01,Naboo fighter,643
+2014-01-01,Naboo Royal Starship,754
+2014-01-01,Scimitar,533
+2014-01-01,J-type diplomatic barge,643
+2014-01-01,Jedi starfighter,635
+2014-01-01,H-type Nubian yacht,743
+2014-01-01,Star Destroyer,643
+2014-01-01,Trade Federation cruiser,643
+2014-01-01,Theta-class T-2c shuttle,765
+2014-01-01,Rebel transport,650
+2014-01-01,Solar Sailer,643
+2014-01-01,Republic attack cruiser,743
+2014-01-01,Naboo star skiff,753
+2014-01-01,Jedi Interceptor,743
+2014-01-01,arc-170,844
+2014-01-01,Belbullab-22 starfighter,854
+2014-01-01,V-wing,854
+2014-01-01,CR90 corvette,854
+2015-01-01,Sentinel-class landing craft,634
+2015-01-01,Millennium Falcon,754
+2015-01-01,Y-wing,744
+2015-01-01,TIE Advanced x1,653
+2015-01-01,Slave 1,754
+2015-01-01,Imperial shuttle,744
+2015-01-01,A-wing,643
+2015-01-01,B-wing,634
+2015-01-01,Republic Cruiser,634
+2015-01-01,Naboo fighter,733
+2015-01-01,Naboo Royal Starship,865
+2015-01-01,Scimitar,754
+2015-01-01,J-type diplomatic barge,754
+2015-01-01,Jedi starfighter,854
+2015-01-01,H-type Nubian yacht,965
+2015-01-01,Star Destroyer,745
+2015-01-01,Trade Federation cruiser,864
+2015-01-01,Theta-class T-2c shuttle,854
+2015-01-01,Rebel transport,650
+2015-01-01,Solar Sailer,864
+2015-01-01,Republic attack cruiser,864
+2015-01-01,Naboo star skiff,965
+2015-01-01,Jedi Interceptor,965
+2015-01-01,arc-170,964
+2015-01-01,Belbullab-22 starfighter,965
+2015-01-01,V-wing,965
+2015-01-01,CR90 corvette,950
+2016-01-01,Sentinel-class landing craft,754
+2016-01-01,Millennium Falcon,846
+2016-01-01,Y-wing,855
+2016-01-01,TIE Advanced x1,864
+2016-01-01,Slave 1,845
+2016-01-01,Imperial shuttle,850
+2016-01-01,A-wing,789
+2016-01-01,B-wing,754
+2016-01-01,Republic Cruiser,764
+2016-01-01,Naboo fighter,854
+2016-01-01,Naboo Royal Starship,899
+2016-01-01,Scimitar,896
+2016-01-01,J-type diplomatic barge,965
+2016-01-01,Jedi starfighter,954
+2016-01-01,H-type Nubian yacht,1074
+2016-01-01,Star Destroyer,864
+2016-01-01,Trade Federation cruiser,976
+2016-01-01,Theta-class T-2c shuttle,1056
+2016-01-01,Rebel transport,650
+2016-01-01,Solar Sailer,908
+2016-01-01,Republic attack cruiser,975
+2016-01-01,Naboo star skiff,1050
+2016-01-01,Jedi Interceptor,1069
+2016-01-01,arc-170,1000
+2016-01-01,Belbullab-22 starfighter,1000
+2016-01-01,V-wing,1006
+2016-01-01,CR90 corvette,950
+2017-01-01,Sentinel-class landing craft,865
+2017-01-01,Millennium Falcon,908
+2017-01-01,Y-wing,908
+2017-01-01,TIE Advanced x1,988
+2017-01-01,Slave 1,908
+2017-01-01,Imperial shuttle,850
+2017-01-01,A-wing,875
+2017-01-01,B-wing,876
+2017-01-01,Republic Cruiser,804
+2017-01-01,Naboo fighter,983
+2017-01-01,Naboo Royal Starship,920
+2017-01-01,Scimitar,974
+2017-01-01,J-type diplomatic barge,1084
+2017-01-01,Jedi starfighter,1074
+2017-01-01,H-type Nubian yacht,1450
+2017-01-01,Star Destroyer,975
+2017-01-01,Trade Federation cruiser,1050
+2017-01-01,Theta-class T-2c shuttle,1245
+2017-01-01,Rebel transport,650
+2017-01-01,Solar Sailer,1078
+2017-01-01,Republic attack cruiser,975
+2017-01-01,Naboo star skiff,1050
+2017-01-01,Jedi Interceptor,1269
+2017-01-01,arc-170,1000
+2017-01-01,Belbullab-22 starfighter,1100
+2017-01-01,V-wing,1050
+2017-01-01,CR90 corvette,950
+2018-01-01,Sentinel-class landing craft,905
+2018-01-01,Millennium Falcon,1050
+2018-01-01,Y-wing,1000
+2018-01-01,TIE Advanced x1,1004
+2018-01-01,Slave 1,1000
+2018-01-01,Imperial shuttle,850
+2018-01-01,A-wing,1003
+2018-01-01,B-wing,950
+2018-01-01,Republic Cruiser,900
+2018-01-01,Naboo fighter,1000
+2018-01-01,Naboo Royal Starship,920
+2018-01-01,Scimitar,1009
+2018-01-01,J-type diplomatic barge,1484
+2018-01-01,Jedi starfighter,1150
+2018-01-01,H-type Nubian yacht,1950
+2018-01-01,Star Destroyer,975
+2018-01-01,Trade Federation cruiser,1050
+2018-01-01,Theta-class T-2c shuttle,1567
+2018-01-01,Rebel transport,650
+2018-01-01,Solar Sailer,1245
+2018-01-01,Republic attack cruiser,975
+2018-01-01,Naboo star skiff,1050
+2018-01-01,Jedi Interceptor,1369
+2018-01-01,arc-170,1000
+2018-01-01,Belbullab-22 starfighter,1100
+2018-01-01,V-wing,1050
+2018-01-01,CR90 corvette,950
+2019-01-01,Sentinel-class landing craft,1000
+2019-01-01,Millennium Falcon,1050
+2019-01-01,Y-wing,1000
+2019-01-01,TIE Advanced x1,1100
+2019-01-01,Slave 1,1000
+2019-01-01,Imperial shuttle,850
+2019-01-01,A-wing,1103
+2019-01-01,B-wing,950
+2019-01-01,Republic Cruiser,900
+2019-01-01,Naboo fighter,1100
+2019-01-01,Naboo Royal Starship,920
+2019-01-01,Scimitar,1059
+2019-01-01,J-type diplomatic barge,1684
+2019-01-01,Jedi starfighter,1150
+2019-01-01,H-type Nubian yacht,2345
+2019-01-01,Star Destroyer,975
+2019-01-01,Trade Federation cruiser,1050
+2019-01-01,Theta-class T-2c shuttle,1667
+2019-01-01,Rebel transport,650
+2019-01-01,Solar Sailer,1432
+2019-01-01,Republic attack cruiser,975
+2019-01-01,Naboo star skiff,1050
+2019-01-01,Jedi Interceptor,1469
+2019-01-01,arc-170,1000
+2019-01-01,Belbullab-22 starfighter,1100
+2019-01-01,V-wing,1050
+2019-01-01,CR90 corvette,950
+2020-01-01,Sentinel-class landing craft,1000
+2020-01-01,Millennium Falcon,1050
+2020-01-01,Y-wing,1000
+2020-01-01,TIE Advanced x1,1200
+2020-01-01,Slave 1,1000
+2020-01-01,Imperial shuttle,850
+2020-01-01,A-wing,1200
+2020-01-01,B-wing,950
+2020-01-01,Republic Cruiser,900
+2020-01-01,Naboo fighter,1100
+2020-01-01,Naboo Royal Starship,920
+2020-01-01,Scimitar,1180
+2020-01-01,J-type diplomatic barge,1884
+2020-01-01,Jedi starfighter,1150
+2020-01-01,H-type Nubian yacht,3245
+2020-01-01,Star Destroyer,975
+2020-01-01,Trade Federation cruiser,1050
+2020-01-01,Theta-class T-2c shuttle,1867
+2020-01-01,Rebel transport,650
+2020-01-01,Solar Sailer,1532
+2020-01-01,Republic attack cruiser,975
+2020-01-01,Naboo star skiff,1050
+2020-01-01,Jedi Interceptor,1500
+2020-01-01,arc-170,1000
+2020-01-01,Belbullab-22 starfighter,1100
+2020-01-01,V-wing,1050
+2020-01-01,CR90 corvette,950
+2021-01-01,Sentinel-class landing craft,1000
+2021-01-01,Millennium Falcon,1050
+2021-01-01,Y-wing,1000
+2021-01-01,TIE Advanced x1,1200
+2021-01-01,Slave 1,1000
+2021-01-01,Imperial shuttle,850
+2021-01-01,A-wing,1300
+2021-01-01,B-wing,950
+2021-01-01,Republic Cruiser,900
+2021-01-01,Naboo fighter,1100
+2021-01-01,Naboo Royal Starship,920
+2021-01-01,Scimitar,1180
+2021-01-01,J-type diplomatic barge,2000
+2021-01-01,Jedi starfighter,1150
+2021-01-01,H-type Nubian yacht,4567
+2021-01-01,Star Destroyer,975
+2021-01-01,Trade Federation cruiser,1050
+2021-01-01,Theta-class T-2c shuttle,2000
+2021-01-01,Rebel transport,650
+2021-01-01,Solar Sailer,1600
+2021-01-01,Republic attack cruiser,975
+2021-01-01,Naboo star skiff,1050
+2021-01-01,Jedi Interceptor,1500
+2021-01-01,arc-170,1000
+2021-01-01,Belbullab-22 starfighter,1100
+2021-01-01,V-wing,1050
+2021-01-01,CR90 corvette,950
+2022-01-01,Sentinel-class landing craft,1000
+2022-01-01,Millennium Falcon,1050
+2022-01-01,Y-wing,1000
+2022-01-01,TIE Advanced x1,1200
+2022-01-01,Slave 1,1000
+2022-01-01,Imperial shuttle,850
+2022-01-01,A-wing,1300
+2022-01-01,B-wing,950
+2022-01-01,Republic Cruiser,900
+2022-01-01,Naboo fighter,1100
+2022-01-01,Naboo Royal Starship,920
+2022-01-01,Scimitar,1180
+2022-01-01,J-type diplomatic barge,2000
+2022-01-01,Jedi starfighter,1150
+2022-01-01,H-type Nubian yacht,5688
+2022-01-01,Star Destroyer,975
+2022-01-01,Trade Federation cruiser,1050
+2022-01-01,Theta-class T-2c shuttle,2000
+2022-01-01,Rebel transport,650
+2022-01-01,Solar Sailer,1600
+2022-01-01,Republic attack cruiser,975
+2022-01-01,Naboo star skiff,1050
+2022-01-01,Jedi Interceptor,1500
+2022-01-01,arc-170,1000
+2022-01-01,Belbullab-22 starfighter,1100
+2022-01-01,V-wing,1050
+2022-01-01,CR90 corvette,950
+2023-01-01,Sentinel-class landing craft,1000
+2023-01-01,Millennium Falcon,1050
+2023-01-01,Y-wing,1000
+2023-01-01,TIE Advanced x1,1200
+2023-01-01,Slave 1,1000
+2023-01-01,Imperial shuttle,850
+2023-01-01,A-wing,1300
+2023-01-01,B-wing,950
+2023-01-01,Republic Cruiser,900
+2023-01-01,Naboo fighter,1100
+2023-01-01,Naboo Royal Starship,920
+2023-01-01,Scimitar,1180
+2023-01-01,J-type diplomatic barge,2000
+2023-01-01,Jedi starfighter,1150
+2023-01-01,H-type Nubian yacht,6789
+2023-01-01,Star Destroyer,975
+2023-01-01,Trade Federation cruiser,1050
+2023-01-01,Theta-class T-2c shuttle,2000
+2023-01-01,Rebel transport,650
+2023-01-01,Solar Sailer,1600
+2023-01-01,Republic attack cruiser,975
+2023-01-01,Naboo star skiff,1050
+2023-01-01,Jedi Interceptor,1500
+2023-01-01,arc-170,1000
+2023-01-01,Belbullab-22 starfighter,1100
+2023-01-01,V-wing,1050
+2023-01-01,CR90 corvette,950
+2024-01-01,Sentinel-class landing craft,1000
+2024-01-01,Millennium Falcon,1050
+2024-01-01,Y-wing,1000
+2024-01-01,TIE Advanced x1,1200
+2024-01-01,Slave 1,1000
+2024-01-01,Imperial shuttle,850
+2024-01-01,A-wing,1300
+2024-01-01,B-wing,950
+2024-01-01,Republic Cruiser,900
+2024-01-01,Naboo fighter,1100
+2024-01-01,Naboo Royal Starship,920
+2024-01-01,Scimitar,1180
+2024-01-01,J-type diplomatic barge,2000
+2024-01-01,Jedi starfighter,1150
+2024-01-01,H-type Nubian yacht,8000
+2024-01-01,Star Destroyer,975
+2024-01-01,Trade Federation cruiser,1050
+2024-01-01,Theta-class T-2c shuttle,2000
+2024-01-01,Rebel transport,650
+2024-01-01,Solar Sailer,1600
+2024-01-01,Republic attack cruiser,975
+2024-01-01,Naboo star skiff,1050
+2024-01-01,Jedi Interceptor,1500
+2024-01-01,arc-170,1000
+2024-01-01,Belbullab-22 starfighter,1100
+2024-01-01,V-wing,1050
+2024-01-01,CR90 corvette,950
