@@ -57,7 +57,7 @@ function _1(md){return(
     radius * 2
     )}
     
-    function _data(step,theta,width,height){return(
+    function _data(step,theta,width,height, fileAttachment){return(
     Array.from({length: 2000}, (_, i) => {
       const r = step * Math.sqrt(i += 0.5), a = theta * i;
       return [

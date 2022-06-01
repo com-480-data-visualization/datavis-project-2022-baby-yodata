@@ -57,7 +57,7 @@
 				<div id="radialTidy"></div>
 			</div>
 			<div class="center child">
-				<div id="smoothZooming" class="center"></div>
+				<div id="bubbleChart" class="center"></div>
 			</div>
 			<div class="center child">
 				<div id="barChart" class="center"></div>
@@ -92,13 +92,14 @@
 
 <script type="module">
 
-	import define from "./smoothZooming.js";
+	import define from "./bubble_chart.js";
 	import { Runtime, Library, Inspector } from "./runtime.js";
 
 	const runtime3 = new Runtime();
+
 	const main3 = runtime3.module(define, name => {
 		if (name == 'chart') {
-			return new Inspector(document.getElementById("smoothZooming"))
+			return new Inspector(document.getElementById("bubbleChart"))
 		}
 	});
 

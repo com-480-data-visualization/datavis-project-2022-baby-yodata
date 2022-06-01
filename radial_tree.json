@@ -1,0 +1,752 @@
+{
+  "name": "Star Wars",
+  "children": [
+    {
+      "name": "Hutt",
+      "children": [
+        {
+          "name": "Nal Hutta",
+          "children": [
+            {
+              "name": "Jabba Desilijc Tiure",
+              "size": 3938
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Yoda's species",
+      "children": [
+        {
+          "name": "Aleena",
+          "children": [
+
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Trandoshan",
+      "children": [
+        {
+          "name": "Trandosha",
+          "children": [
+            {
+              "name": "Bossk",
+              "size": 3938
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mon Calamari",
+      "children": [
+        {
+          "name": "Mon Cala",
+          "children": [
+            {
+              "name": "Ackbar",
+              "size": 3938
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ewok",
+      "children": [
+        {
+          "name": "Endor",
+          "children": [
+            {
+              "name": "Wicket Systri Warrick",
+              "size": 3938
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Sullustan",
+      "children": [
+        {
+          "name": "Sullust",
+          "children": [
+            {
+              "name": "Nien Nunb",
+              "size": 3938
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Neimodian",
+      "children": [
+        {
+          "name": "Cato Neimoidia",
+          "children": [
+            {
+              "name": "Nute Gunray",
+              "size": 3938
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Gungan",
+      "children": [
+        {
+          "name": "Naboo",
+          "children": [
+            {
+              "name": "Jar Jar Binks",
+              "size": 3938
+            },
+            {
+              "name": "Roos Tarpals",
+              "size": 3938
+            },
+            {
+              "name": "Rugor Nass",
+              "size": 3938
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Toydarian",
+      "children": [
+        {
+          "name": "Toydaria",
+          "children": [
+            {
+              "name": "Watto",
+              "size": 3938
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Dug",
+      "children": [
+        {
+          "name": "Malastare",
+          "children": [
+            {
+              "name": "Sebulba",
+              "size": 3938
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Twi'lek",
+      "children": [
+        {
+          "name": "Ryloth",
+          "children": [
+            {
+              "name": "Bib Fortuna",
+              "size": 3938
+            },
+            {
+              "name": "Ayla Secura",
+              "size": 3938
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Aleena",
+      "children": [
+        {
+          "name": "Aleen Minor",
+          "children": [
+            {
+              "name": "Ratts Tyerell",
+              "size": 3938
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Vulptereen",
+      "children": [
+        {
+          "name": "Vulpter",
+          "children": [
+            {
+              "name": "Dub Bolt",
+              "size": 3938
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Xexto",
+      "children": [
+        {
+          "name": "Troiken",
+          "children": [
+            {
+              "name": "Gasgano",
+              "size": 3938
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Toong",
+      "children": [
+        {
+          "name": "Tund",
+          "children": [
+            {
+              "name": "Ben Quadinaros",
+              "size": 3938
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Cerean",
+      "children": [
+        {
+          "name": "Cerea",
+          "children": [
+            {
+              "name": "Ki-Adi-Mundi",
+              "size": 3938
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Nautolan",
+      "children": [
+        {
+          "name": "Glee Anselm",
+          "children": [
+            {
+              "name": "Kit Fisto",
+              "size": 3938
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Zabrak",
+      "children": [
+        {
+          "name": "Dathomir",
+          "children": [
+            {
+              "name": "Darth Maul",
+              "size": 3938
+            }
+          ]
+        },
+        {
+          "name": "Iridonia",
+          "children": [
+            {
+              "name": "Eeth Koth",
+              "size": 3938
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Tholothian",
+      "children": [
+        {
+          "name": "Coruscant",
+          "children": [
+            {
+              "name": "Adi Gallia",
+              "size": 3938
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Iktotchi",
+      "children": [
+        {
+          "name": "Iktotchi",
+          "children": [
+            {
+              "name": "Saesee Tiin",
+              "size": 3938
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Quermian",
+      "children": [
+        {
+          "name": "Quermia",
+          "children": [
+            {
+              "name": "Yarael Poof",
+              "size": 3938
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Kel Dor",
+      "children": [
+        {
+          "name": "Dorin",
+          "children": [
+            {
+              "name": "Plo Koon",
+              "size": 3938
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Chagrian",
+      "children": [
+        {
+          "name": "Champala",
+          "children": [
+            {
+              "name": "Mas Amedda",
+              "size": 3938
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Geonosian",
+      "children": [
+        {
+          "name": "Geonosis",
+          "children": [
+            {
+              "name": "Poggle the Lesser",
+              "size": 3938
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mirialan",
+      "children": [
+        {
+          "name": "Mirial",
+          "children": [
+            {
+              "name": "Luminara Unduli",
+              "size": 3938
+            },
+            {
+              "name": "Barriss Offee",
+              "size": 3938
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Clawdite",
+      "children": [
+        {
+          "name": "Zolan",
+          "children": [
+            {
+              "name": "Zam Wesell",
+              "size": 3938
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Besalisk",
+      "children": [
+        {
+          "name": "Ojom",
+          "children": [
+            {
+              "name": "Dexter Jettster",
+              "size": 3938
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Kaminoan",
+      "children": [
+        {
+          "name": "Kamino",
+          "children": [
+            {
+              "name": "Lama Su",
+              "size": 3938
+            },
+            {
+              "name": "Taun We",
+              "size": 3938
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Skakoan",
+      "children": [
+        {
+          "name": "Skako",
+          "children": [
+            {
+              "name": "Wat Tambor",
+              "size": 3938
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Muun",
+      "children": [
+        {
+          "name": "Muunilinst",
+          "children": [
+            {
+              "name": "San Hill",
+              "size": 3938
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Togruta",
+      "children": [
+        {
+          "name": "Shili",
+          "children": [
+            {
+              "name": "Shaar Ti",
+              "size": 3938
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Kaleesh",
+      "children": [
+        {
+          "name": "Kalee",
+          "children": [
+            {
+              "name": "Grievous",
+              "size": 3938
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Pau'an",
+      "children": [
+        {
+          "name": "Utapau",
+          "children": [
+            {
+              "name": "Tion Medon",
+              "size": 3938
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Wookiee",
+      "children": [
+        {
+          "name": "Kashyyyk",
+          "children": [
+            {
+              "name": "Chewbacca",
+              "size": 3938
+            },
+            {
+              "name": "Tarfful",
+              "size": 3938
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Droid",
+      "children": [
+        {
+          "name": "Tatooine",
+          "children": [
+            {
+              "name": "C-3PO",
+              "size": 3938
+            },
+            {
+              "name": "R5-D4",
+              "size": 3938
+            }
+          ]
+        },
+        {
+          "name": "Naboo",
+          "children": [
+            {
+              "name": "R2-D2",
+              "size": 3938
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Human",
+      "children": [
+        {
+          "name": "Tatooine",
+          "children": [
+            {
+              "name": "Luke Skywalker",
+              "size": 3938
+            },
+            {
+              "name": "Darth Vader",
+              "size": 3938
+            },
+            {
+              "name": "Owen Lars",
+              "size": 3938
+            },
+            {
+              "name": "Beru Whitesun lars",
+              "size": 3938
+            },
+            {
+              "name": "Biggs Darklighter",
+              "size": 3938
+            },
+            {
+              "name": "Anakin Skywalker",
+              "size": 3938
+            },
+            {
+              "name": "Shmi Skywalker",
+              "size": 3938
+            },
+            {
+              "name": "Cliegg Lars",
+              "size": 3938
+            }
+          ]
+        },
+        {
+          "name": "Alderaan",
+          "children": [
+            {
+              "name": "Leia Organa",
+              "size": 3938
+            },
+            {
+              "name": "Bail Prestor Organa",
+              "size": 3938
+            },
+            {
+              "name": "Raymus Antilles",
+              "size": 3938
+            }
+          ]
+        },
+        {
+          "name": "Haruun Kal",
+          "children": [
+            {
+              "name": "Mace Windu",
+              "size": 3938
+            }
+          ]
+        },
+        {
+          "name": "Concord Dawn",
+          "children": [
+            {
+              "name": "Jango Fett",
+              "size": 3938
+            }
+          ]
+        },
+        {
+          "name": "Stewjon",
+          "children": [
+            {
+              "name": "Obi-Wan Kenobi",
+              "size": 3938
+            }
+          ]
+        },
+        {
+          "name": "Naboo",
+          "children": [
+            {
+              "name": "Palpatine",
+              "size": 3938
+            },
+            {
+              "name": "Gregar Typho",
+              "size": 3938
+            },
+            {
+              "name": "Cordé",
+              "size": 3938
+            },
+            {
+              "name": "Dormé",
+              "size": 3938
+            },
+            {
+              "name": "Padmé Amidala",
+              "size": 3938
+            }
+          ]
+        },
+        {
+          "name": "Eriadu",
+          "children": [
+            {
+              "name": "Wilhuff Tarkin",
+              "size": 3938
+            }
+          ]
+        },
+        {
+          "name": "Socorro",
+          "children": [
+            {
+              "name": "Lando Calrissian",
+              "size": 3938
+            }
+          ]
+        },
+        {
+          "name": "Kamino",
+          "children": [
+            {
+              "name": "Boba Fett",
+              "size": 3938
+            }
+          ]
+        },
+        {
+          "name": "Bespin",
+          "children": [
+            {
+              "name": "Lobot",
+              "size": 3938
+            }
+          ]
+        },
+        {
+          "name": "Serenno",
+          "children": [
+            {
+              "name": "Dooku",
+              "size": 3938
+            }
+          ]
+        },
+        {
+          "name": "Coruscant",
+          "children": [
+            {
+              "name": "Finis Valorum",
+              "size": 3938
+            },
+            {
+              "name": "Jocasta Nu",
+              "size": 3938
+            }
+          ]
+        },
+        {
+          "name": "Corellia",
+          "children": [
+            {
+              "name": "Han Solo",
+              "size": 3938
+            },
+            {
+              "name": "Wedge Antilles",
+              "size": 3938
+            }
+          ]
+        },
+        {
+          "name": "Bestine IV",
+          "children": [
+            {
+              "name": "Jek Tono Porkins",
+              "size": 3938
+            }
+          ]
+        },
+        {
+          "name": "Chandrila",
+          "children": [
+            {
+              "name": "Mon Mothma",
+              "size": 3938
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Rodian",
+      "children": [
+        {
+          "name": "Rodia",
+          "children": [
+            {
+              "name": "Greedo",
+              "size": 3938
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
