@@ -133,7 +133,7 @@ export default function define(runtime, observer) {
   const main = runtime.module();
   function toString() { return this.url; }
   const fileAttachments = new Map([
-    ["flare-2.json", {url: new URL("./flare-2.json", import.meta.url), mimeType: null, toString}]
+    ["flare-2.json", {url: new URL("./radial_tree.json", import.meta.url), mimeType: null, toString}]
   ]);
   main.builtin("FileAttachment", runtime.fileAttachments(name => fileAttachments.get(name)));
   main.variable(observer()).define(["md"], _1);
