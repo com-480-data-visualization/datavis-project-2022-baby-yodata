@@ -151,14 +151,34 @@
 				<div>
 					<h3>
 						// TODO : text for world cloud
+
+						<br>
+
+						First, choose the number of the episode (IV, V or VI).
+
+						<br>
+
+						Then choose one of the main characters of the episode.
+
+						<br>
+
+						A "word cloud" depicting the most frequent words of that character will appear!
 					</h3>
 				</div>
 			</div>
 			<div class="center child block-height">
 				<div class="flex-parent jc-center">
-					<button type="button" class="margin-right">Click Me!</button>
-					<button type="button" class="margin-right">Click Me!</button>
-					<button type="button">Click Me!</button>
+					<button id="ep4" type="button" class="margin-right">Episode IV</button>
+					<button id="ep5" type="button" class="margin-right">Episode V</button>
+					<button id="ep6" type="button">Episode VI</button>
+				</div>
+
+				<div class="flex-parent jc-center">
+					<button id="char1" type="button" class="margin-right">Character 1</button>
+					<button id="char2" type="button" class="margin-right">Character 2</button>
+					<button id="char3" type="button" class="margin-right">Character 3</button>
+					<button id="char4" type="button" class="margin-right">Character 4</button>
+					<button id="char5" type="button" >Character 5</button>
 				</div>
 
 				<div id="wordCloud" class="center"></div>
@@ -213,6 +233,75 @@
 </script>
 
 <script type="module">
+	var current_episode = 4;
+window.filename = current_episode + "_" + "LUKE" + ".txt";
+
+// 
+const ep4_characters = ["BEN", "HAN", "LEIA", "LUKE", "THREEPIO"];
+const ep5_characters = ["HAN", "LANDO", "LEIA", "LUKE", "THREEPIO"];
+const ep6_characters = ["HAN", "LEIA", "LUKE", "THREEPIO", "VADER"];
+	
+// The character buttons and the word cloud are invisible at first
+const characters = [document.getElementById("char1"), 
+					document.getElementById("char2"),
+					document.getElementById("char3"),
+					document.getElementById("char4"),
+					document.getElementById("char5"),
+];
+const wordCloudViz = document.getElementById("wordCloud");
+
+characters.map(x => x.style.visibility = "hidden");
+wordCloudViz.style.visibility = "hidden";
+
+document.getElementById("ep4").addEventListener("click", function() {
+	console.log("ep4 clicked");
+
+	for (let i = 0; i < ep4_characters.length; i++) {
+        characters[i].innerText = ep4_characters[i];
+	}
+		
+	characters.map(x => x.style.visibility = "visible");
+
+	current_episode = 4;
+})
+
+document.getElementById("ep5").addEventListener("click", function() {
+	console.log("ep5 clicked");
+
+	for (let i = 0; i < ep5_characters.length; i++) {
+		characters[i].innerText = ep5_characters[i];
+	}
+
+	characters.map(x => x.style.visibility = "visible");
+	current_episode = 5;
+})
+
+document.getElementById("ep6").addEventListener("click", function() {
+	console.log("ep6 clicked");
+
+	for (let i = 0; i < ep6_characters.length; i++) {
+		characters[i].innerText = ep6_characters[i];
+	}
+
+	characters.map(x => x.style.visibility = "visible");
+
+	current_episode = 6;
+})
+
+characters.map(x => 
+	x.addEventListener("click", function() {
+		window.filename = current_episode + "_" + x.innerText + ".txt";
+		console.log(window.filename);
+
+		// REDRAW WORDCLOUD
+
+		wordCloudViz.style.visibility = "visible";
+	})
+);
+
+</script>
+
+<script type="module">
 
 	import define from "./wordCloud.js";
 	import { Runtime, Library, Inspector } from "./runtime.js";
@@ -226,6 +315,8 @@
 	});
 
 </script>
+
+
 
 <script>
 	const canvas = document.getElementById("canvas");

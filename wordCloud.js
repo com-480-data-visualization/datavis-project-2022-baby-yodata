@@ -19,10 +19,15 @@ function _3(howto){return(
 howto("WordCloud")
 )}
 
-async function _source(Inputs,FileAttachment,width){return(
+async function _source(Inputs,FileAttachment,width){
+  // var fileToLoad = "6_VADER.txt";
+  var fileToLoad = window.filename;
+
+  return(
 Inputs.textarea({
-  value: (await FileAttachment("dream.txt").text()).trim(),
-  //value: (await FileAttachment("4_LUKE.txt").text()).trim(),
+  // value: (await FileAttachment("dream.txt").text()).trim(),
+  value: (await FileAttachment(fileToLoad).text()).trim(),
+  // value: (await FileAttachment(window.filename).text()).trim(),
   rows: 20,
   width
 })
@@ -129,8 +134,25 @@ export default function define(runtime, observer) {
   const main = runtime.module();
   function toString() { return this.url; }
   const fileAttachments = new Map([
-    ["dream.txt", {url: new URL("./data/dream.txt", import.meta.url), mimeType: "text/plain", toString}]
-    //["4_LUKE.txt", {url: new URL("./data/4_LUKE.txt", import.meta.url), mimeType: "text/plain", toString}]
+    // ["dream.txt", {url: new URL("./data/dream.txt", import.meta.url), mimeType: "text/plain", toString}]
+    ["4_BEN.txt", {url: new URL("./data/4_BEN.txt", import.meta.url), mimeType: "text/plain", toString}],
+    ["4_HAN.txt", {url: new URL("./data/4_HAN.txt", import.meta.url), mimeType: "text/plain", toString}],
+    ["4_LEIA.txt", {url: new URL("./data/4_LEIA.txt", import.meta.url), mimeType: "text/plain", toString}],
+    ["4_LUKE.txt", {url: new URL("./data/4_LUKE.txt", import.meta.url), mimeType: "text/plain", toString}],
+    ["4_THREEPIO.txt", {url: new URL("./data/4_THREEPIO.txt", import.meta.url), mimeType: "text/plain", toString}],
+    
+    ["5_HAN.txt", {url: new URL("./data/5_HAN.txt", import.meta.url), mimeType: "text/plain", toString}],
+    ["5_LANDO.txt", {url: new URL("./data/5_LANDO.txt", import.meta.url), mimeType: "text/plain", toString}],
+    ["5_LEIA.txt", {url: new URL("./data/5_LEIA.txt", import.meta.url), mimeType: "text/plain", toString}],
+    ["5_LUKE.txt", {url: new URL("./data/5_LUKE.txt", import.meta.url), mimeType: "text/plain", toString}],
+    ["5_THREEPIO.txt", {url: new URL("./data/5_THREEPIO.txt", import.meta.url), mimeType: "text/plain", toString}],
+    
+    ["6_HAN.txt", {url: new URL("./data/6_HAN.txt", import.meta.url), mimeType: "text/plain", toString}],
+    ["6_LEIA.txt", {url: new URL("./data/6_LEIA.txt", import.meta.url), mimeType: "text/plain", toString}],
+    ["6_LUKE.txt", {url: new URL("./data/6_LUKE.txt", import.meta.url), mimeType: "text/plain", toString}],
+    ["6_THREEPIO.txt", {url: new URL("./data/6_THREEPIO.txt", import.meta.url), mimeType: "text/plain", toString}],
+    ["6_VADER.txt", {url: new URL("./data/6_VADER.txt", import.meta.url), mimeType: "text/plain", toString}],
+
   ]);
   main.builtin("FileAttachment", runtime.fileAttachments(name => fileAttachments.get(name)));
   main.variable(observer()).define(["md"], _1);
