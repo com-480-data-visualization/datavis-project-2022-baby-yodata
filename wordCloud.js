@@ -66,7 +66,7 @@ function WordCloud(text, {
       .attr("width", width)
       .attr("font-family", fontFamily)
       .attr("text-anchor", "middle")
-      .attr("fill", "#FFFFFF")
+      .attr("fill", "#ffffff")
       .attr("style", "max-width: 100%; height: auto; height: intrinsic;");
 
   const g = svg.append("g").attr("transform", `translate(${marginLeft},${marginTop})`);
