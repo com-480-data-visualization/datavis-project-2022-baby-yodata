@@ -7,8 +7,6 @@ The website : https://com-480-data-visualization.github.io/datavis-project-2022-
 
 ## Authors
 
-* * *
-
 | Name          | Sciper |
 | -----------   | ----------- |
 | Roxane Burri      | 321405       |
@@ -17,14 +15,11 @@ The website : https://com-480-data-visualization.github.io/datavis-project-2022-
 
 
 ## Abstract
-* * *
 
 In a current context where most of the information is sad, we decided to choose a joyful universe allowing to have fun and so we chose the cinematographic universe of Star Wars.
 Through different datasets, we want to show some facts about the Star Wars universe. These visualizations are simple to capture the interest of any kind of knowledge about Star Wars. This universe is vast and complex, so the goal of all the work is to bring fun facts that can bring new people into the universe or that can entertain people who already know Star Wars. We are primarily targeting Star Wars fans that would like to learn more about the Star Wars universe as well as newcomers that want to get to know the Star Wars saga, in a visual and entertaining manner.
 
 ## Project structure and installation
-
-* * *
 
 ```
 ├── data
@@ -51,7 +46,6 @@ To run our project locally :
 
 
 ## Dataset
-* * *
 
 The dataset comes from Kaggle
 
@@ -62,6 +56,5 @@ The dataset comes from Kaggle
 
 
 ## Screen cast
-* * *
 
 
