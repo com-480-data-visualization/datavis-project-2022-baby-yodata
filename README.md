@@ -1,5 +1,4 @@
 # Baby Yodata team --- Star Wars
-* * *
 
 Project for com-480-data-visualization course at EPFL
 
