@@ -56,5 +56,4 @@ The dataset comes from Kaggle
 
 
 ## Screen cast
-
-
+The link of the video : https://youtu.be/EZEZwkc-woo
