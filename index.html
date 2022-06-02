@@ -150,9 +150,9 @@
 			<div id="title" class="child">
 				<div>
 					<h3>
-						// TODO : text for world cloud
+						Re-discover the dialogue lines of your favorite characters in a new and exciting way!
 
-						<br>
+						<br><br>
 
 						First, choose the number of the episode (IV, V or VI).
 
@@ -233,90 +233,82 @@
 </script>
 
 <script type="module">
-	var current_episode = 4;
-window.filename = current_episode + "_" + "LUKE" + ".txt";
-
-// 
-const ep4_characters = ["BEN", "HAN", "LEIA", "LUKE", "THREEPIO"];
-const ep5_characters = ["HAN", "LANDO", "LEIA", "LUKE", "THREEPIO"];
-const ep6_characters = ["HAN", "LEIA", "LUKE", "THREEPIO", "VADER"];
-	
-// The character buttons and the word cloud are invisible at first
-const characters = [document.getElementById("char1"), 
-					document.getElementById("char2"),
-					document.getElementById("char3"),
-					document.getElementById("char4"),
-					document.getElementById("char5"),
-];
-const wordCloudViz = document.getElementById("wordCloud");
-
-characters.map(x => x.style.visibility = "hidden");
-wordCloudViz.style.visibility = "hidden";
-
-document.getElementById("ep4").addEventListener("click", function() {
-	console.log("ep4 clicked");
-
-	for (let i = 0; i < ep4_characters.length; i++) {
-        characters[i].innerText = ep4_characters[i];
-	}
-		
-	characters.map(x => x.style.visibility = "visible");
-
-	current_episode = 4;
-})
-
-document.getElementById("ep5").addEventListener("click", function() {
-	console.log("ep5 clicked");
-
-	for (let i = 0; i < ep5_characters.length; i++) {
-		characters[i].innerText = ep5_characters[i];
-	}
-
-	characters.map(x => x.style.visibility = "visible");
-	current_episode = 5;
-})
-
-document.getElementById("ep6").addEventListener("click", function() {
-	console.log("ep6 clicked");
-
-	for (let i = 0; i < ep6_characters.length; i++) {
-		characters[i].innerText = ep6_characters[i];
-	}
-
-	characters.map(x => x.style.visibility = "visible");
-
-	current_episode = 6;
-})
-
-characters.map(x => 
-	x.addEventListener("click", function() {
-		window.filename = current_episode + "_" + x.innerText + ".txt";
-		console.log(window.filename);
-
-		// REDRAW WORDCLOUD
-
-		wordCloudViz.style.visibility = "visible";
-	})
-);
-
-</script>
-
-<script type="module">
-
 	import define from "./wordCloud.js";
 	import { Runtime, Library, Inspector } from "./runtime.js";
 
-	const runtime4 = new Runtime();
-	const main4 = runtime4.module(define, name => {
-		if (name == 'chart') {
-			return new Inspector(document.getElementById("wordCloud"))
+	var current_episode = 4;
+	window.filename = current_episode + "_" + "LUKE" + ".txt";
+
+	// 
+	const ep4_characters = ["BEN", "HAN", "LEIA", "LUKE", "THREEPIO"];
+	const ep5_characters = ["HAN", "LANDO", "LEIA", "LUKE", "THREEPIO"];
+	const ep6_characters = ["HAN", "LEIA", "LUKE", "THREEPIO", "VADER"];
+	
+	// The character buttons and the word cloud are invisible at first
+	const characters = [document.getElementById("char1"), 
+						document.getElementById("char2"),
+						document.getElementById("char3"),
+						document.getElementById("char4"),
+						document.getElementById("char5"),
+	];
+	const wordCloudViz = document.getElementById("wordCloud");
+
+	characters.map(x => x.style.visibility = "hidden");
+	wordCloudViz.style.visibility = "hidden";
+
+	document.getElementById("ep4").addEventListener("click", function() {
+		console.log("ep4 clicked");
+
+		for (let i = 0; i < ep4_characters.length; i++) {
+        	characters[i].innerText = ep4_characters[i];
+		}
+		
+		characters.map(x => x.style.visibility = "visible");
+
+		current_episode = 4;
+	})
+
+	document.getElementById("ep5").addEventListener("click", function() {
+		console.log("ep5 clicked");
+
+		for (let i = 0; i < ep5_characters.length; i++) {
+			characters[i].innerText = ep5_characters[i];
 		}
 
-	});
+		characters.map(x => x.style.visibility = "visible");
+		current_episode = 5;
+	})
 
+	document.getElementById("ep6").addEventListener("click", function() {
+		console.log("ep6 clicked");
+
+		for (let i = 0; i < ep6_characters.length; i++) {
+			characters[i].innerText = ep6_characters[i];
+		}
+
+		characters.map(x => x.style.visibility = "visible");
+
+		current_episode = 6;
+	})
+
+	characters.map(x => 
+		x.addEventListener("click", function() {
+			window.filename = current_episode + "_" + x.innerText + ".txt";
+			console.log(window.filename);
+
+			// generating word cloud
+			const runtime4 = new Runtime();
+			const main4 = runtime4.module(define, name => {
+				if (name == 'chart') {
+					return new Inspector(document.getElementById("wordCloud"))
+				}
+
+			});
+
+			wordCloudViz.style.visibility = "visible";
+		})
+	);
 </script>
-
-
 
 <script>
 	const canvas = document.getElementById("canvas");
