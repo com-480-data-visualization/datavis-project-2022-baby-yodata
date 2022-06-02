@@ -46,7 +46,7 @@ async function* _chart(replay,d3,width,height,bars,axis,labels,ticker,keyframes,
 }
 
 function _duration(){return(
-    250
+    200
 )}
 
 function _n(){return(
@@ -118,7 +118,7 @@ function _bars(n,color,y,x,prev,next){return(
               enter => enter.append("rect")
                   .attr("fill", color)
                   .attr("height", y.bandwidth())
-                  .attr("x", x(0))
+                  .attr("x", 0)
                   .attr("y", d => y((prev.get(d) || d).rank))
                   .attr("width", d => x((prev.get(d) || d).value) - x(0)),
               update => update,

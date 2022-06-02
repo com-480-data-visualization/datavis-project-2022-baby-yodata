@@ -18,7 +18,7 @@ BubbleChart(files, {
   value: d => d.value,
   group: d => d.id.split(".")[1],
   title: d => `${d.id}\n${d.value.toLocaleString("en")}`,
-  link: d => `https://github.com/prefuse/Flare/blob/master/flare/src/${d.id.replace(/\./g, "/")}.as`,
+  //link: d => `https://github.com/prefuse/Flare/blob/master/flare/src/${d.id.replace(/\./g, "/")}.as`,
   width: 1152
 })
 )}
@@ -42,8 +42,8 @@ function BubbleChart(data, {
   value = ([, y]) => y, // given d in data, returns a quantitative size
   group, // given d in data, returns a categorical value for color
   title, // given d in data, returns text to show on hover
-  link, // given a node d, its link (if any)
-  linkTarget = "_blank", // the target attribute for links, if any
+  //link, // given a node d, its link (if any)
+  //linkTarget = "_blank", // the target attribute for links, if any
   width = 640, // outer width, in pixels
   height = width, // outer height, in pixels
   padding = 3, // padding between circles
@@ -97,8 +97,8 @@ function BubbleChart(data, {
   const leaf = svg.selectAll("a")
     .data(root.leaves())
     .join("a")
-      .attr("xlink:href", link == null ? null : (d, i) => link(D[d.data], i, data))
-      .attr("target", link == null ? null : linkTarget)
+      //.attr("xlink:href", link == null ? null : (d, i) => link(D[d.data], i, data))
+      //.attr("target", link == null ? null : linkTarget)
       .attr("transform", d => `translate(${d.x},${d.y})`);
 
   leaf.append("circle")
